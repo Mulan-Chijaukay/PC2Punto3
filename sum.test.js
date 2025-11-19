@@ -1,0 +1,3 @@
+const sum = require('./sum'); test('sum(4, 6) debe devolver 10', () => {
+expect(sum(4, 6)).toBe(10); }); test('sum(-3, 8) debe devolver 5', () => { expect(sum(-
+3, 8)).toBe(5); });
